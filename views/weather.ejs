@@ -1,0 +1,49 @@
+<%- include('header'); -%>
+<h1> Weather App</h1>
+    <div class="wrapper container">
+        <form  action="/" method="post">
+            <div class="form-group">
+                <div class="input-group form-outline ">
+                    <input class="form-control" type="text" name="userCity" placeholder="Search city..."/>
+                    <div class="input-group-addon">
+                        <button class="btn btn-outline-dark" type="submit">
+                            <i class="fas fab fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>    
+        </form>
+
+        <main class="container">
+            <div class="weather-details container row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xsm-4 city-dets">
+                    <h2> <%= time %> </h2>
+                    <p>Weather <i class="fa-solid fa-location-dot"></i> <%= city %>  </p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xsm-4 temp-dets">
+                    <h2 id="temp"> <%= Math.round(temp) %> °<small>C</small> 
+                        <img src="<%= icon %>"/> 
+                    </h2>
+                    
+                    <p class="lrg-size"> <%= description %> </p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xsm-4 more-dets">
+                    <h3>Weather Conditions <i class="fas fa-cloud"></i></h3>
+                    <p class="condition-size"> Wind Speed: <%= wind %>  km/h</p>
+                    <p class="condition-size"> Pressure: <%= pressure %> mbar </p>
+                    <p class="condition-size"> Humidity: <%= humid %>% </p>
+                    <p class="condition-size"> Sunrise: <%= sunrise %> </p>
+                    <p class="condition-size"> Sunset: <%= sunset %> </p>
+                </div>
+            </div>
+            
+        </main>
+
+    </div>
+
+
+
+
+<%- include('footer'); -%>
