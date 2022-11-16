@@ -1,3 +1,7 @@
+
+
+https://user-images.githubusercontent.com/110087411/202273987-c1539b71-cf64-4fbb-b36c-910db5f02936.mp4
+
 # Weather App
 
 This is a simple weather app that can be user by anyone across the globe to get the current weather and it's conditions.
