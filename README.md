@@ -1,10 +1,7 @@
-
-
-https://user-images.githubusercontent.com/110087411/202273987-c1539b71-cf64-4fbb-b36c-910db5f02936.mp4
-
 # Weather App
 
 This is a simple weather app that can be user by anyone across the globe to get the current weather and it's conditions.
+
 
 
 ## Authors
@@ -13,8 +10,8 @@ This is a simple weather app that can be user by anyone across the globe to get 
 
 ## Color Reference
 Linear gradient animation colors
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
+| Color             | Hex      |
+| ----------------- | -------- |
 | Zomp              |  #2f949c |
 | Medium Turquoise  |  #42d1db |
 | Mountain Meadow   |  #30c28a |
@@ -34,4 +31,8 @@ Javascript, HTML, CSS NodeJS, ExpressJS, API...
 **Client:** EJS, CSS, Bootstrap, HTML
 
 **Server:** Node, Express
+
+
+
+https://user-images.githubusercontent.com/110087411/202706492-5a5b0e18-3345-4810-843b-6f7d25c364e2.mp4
 
